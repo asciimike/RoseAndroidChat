@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Chat Slides</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_send_button_description">Send Message Button</string>
+    <string name="user_base">Username:</string>
+    <string name="text_base">"My message is here"</string>
+    <string name="user_format">%1$s:</string>
+    <string name="text_format">\"%1$s\"</string>
+
+</resources>
