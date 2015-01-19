@@ -25,16 +25,4 @@ public class Message {
         this.user = user;
         this.text = text;
     }
-
-    public Message(Map<String,Object> map){
-        this((String)map.get("user"), (String)map.get("text"));
-    }
-
-    public Map<String, Object> toMap(){
-        Map<String, Object> messageMap = new HashMap<String, Object>();
-        messageMap.put("user", this.user);
-        messageMap.put("text", this.text);
-        return messageMap;
-    }
-
 }
